@@ -10,6 +10,7 @@
     "e2e": "ng e2e",
     "storybook": "start-storybook -p 6006",
     "screenshot": "storybook-chrome-screenshot -p 9001",
+    "regression": "reg-suit run",
     "build-storybook": "build-storybook"
   },
   "private": true,
@@ -50,6 +51,10 @@
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.3.0",
+    "reg-keygen-git-hash-plugin": "^0.7.1",
+    "reg-notify-github-plugin": "^0.7.2",
+    "reg-publish-s3-plugin": "^0.7.3",
+    "reg-suit": "^0.7.2",
     "storybook-chrome-screenshot": "^1.1.0-alpha.4",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
