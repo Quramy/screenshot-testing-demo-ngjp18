@@ -4,6 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import { Welcome, Button } from '@storybook/angular/demo';
+import { withScreenshot } from 'storybook-chrome-screenshot';
 
 storiesOf('Welcome', module).add('to Storybook', () => ({
   component: Welcome,
@@ -11,12 +12,12 @@ storiesOf('Welcome', module).add('to Storybook', () => ({
 }));
 
 storiesOf('Button', module)
-  .add('with text', () => ({
+  .add('with text', withScreenshot()(() => ({
     component: Button,
     props: {
       text: 'Hello Button',
     },
-  }))
+  })))
   .add(
     'with some emoji',
     withNotes({ text: 'My notes on a button with emojis' })(() => ({

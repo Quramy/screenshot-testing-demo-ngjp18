@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "storybook": "start-storybook -p 6006",
+    "screenshot": "storybook-chrome-screenshot -p 9001",
     "build-storybook": "build-storybook"
   },
   "private": true,
@@ -31,6 +32,11 @@
     "@angular/cli": "~6.0.8",
     "@angular/compiler-cli": "^6.0.3",
     "@angular/language-service": "^6.0.3",
+    "@storybook/addon-actions": "^4.0.0-alpha.9",
+    "@storybook/addon-links": "^4.0.0-alpha.9",
+    "@storybook/addon-notes": "^4.0.0-alpha.9",
+    "@storybook/addons": "^4.0.0-alpha.9",
+    "@storybook/angular": "^4.0.0-alpha.9",
     "@storybook/cli": "4.0.0-alpha.9",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
@@ -44,13 +50,9 @@
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.3.0",
+    "storybook-chrome-screenshot": "^1.1.0-alpha.4",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~2.7.2",
-    "@storybook/angular": "^4.0.0-alpha.9",
-    "@storybook/addon-notes": "^4.0.0-alpha.9",
-    "@storybook/addon-actions": "^4.0.0-alpha.9",
-    "@storybook/addon-links": "^4.0.0-alpha.9",
-    "@storybook/addons": "^4.0.0-alpha.9"
+    "typescript": "~2.7.2"
   }
 }
