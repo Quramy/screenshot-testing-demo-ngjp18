@@ -153,7 +153,7 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/language-service@^6.0.3":
+"@angular/language-service@^6.0.4":
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.4.tgz#4a19c1734d28590d987268090b16b12e71a67c30"
 
