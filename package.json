@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "private": true,
   "dependencies": {
@@ -25,11 +27,11 @@
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^6.0.3",
     "@angular-devkit/build-angular": "~0.6.8",
-    "typescript": "~2.7.2",
     "@angular/cli": "~6.0.8",
+    "@angular/compiler-cli": "^6.0.3",
     "@angular/language-service": "^6.0.3",
+    "@storybook/cli": "4.0.0-alpha.9",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
@@ -43,6 +45,12 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
-    "tslint": "~5.9.1"
+    "tslint": "~5.9.1",
+    "typescript": "~2.7.2",
+    "@storybook/angular": "^4.0.0-alpha.9",
+    "@storybook/addon-notes": "^4.0.0-alpha.9",
+    "@storybook/addon-actions": "^4.0.0-alpha.9",
+    "@storybook/addon-links": "^4.0.0-alpha.9",
+    "@storybook/addons": "^4.0.0-alpha.9"
   }
 }
