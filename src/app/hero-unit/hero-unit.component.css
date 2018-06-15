@@ -9,6 +9,7 @@
 }
 
 .message {
+  margin-top: 0;
   color: #3b3b42;
   font-size: 3em;
 }
