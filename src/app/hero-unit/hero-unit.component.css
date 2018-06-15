@@ -1,3 +1,14 @@
 :host {
-  padding: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.inner {
+  text-align: center;
+}
+
+.message {
+  color: #3b3b42;
+  font-size: 3em;
 }
